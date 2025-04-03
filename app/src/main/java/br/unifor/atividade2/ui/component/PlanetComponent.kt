@@ -59,9 +59,9 @@ fun PlanetComponent(planet: Planet) {
                     fontWeight = FontWeight.Bold
                 )
                 Text(
-                    text = planet.diameter,
+                    text = "Diametro: " + planet.diameter.toString(),
                     fontSize = 25.sp,
-                    fontWeight = FontWeight.Light
+                    fontWeight = FontWeight.Bold
                 )
             }
         }
